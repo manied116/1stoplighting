@@ -1,9 +1,11 @@
 import React from 'react';
+// NPM
 import { ArrowLongRightIcon, SparklesIcon, ChevronRightIcon ,ChatBubbleOvalLeftIcon} from '@heroicons/react/24/outline';
-import {  PhoneIcon, } from '@heroicons/react/20/solid';
+import {  PhoneIcon, } 																 from '@heroicons/react/20/solid';
+// IMAGES
 import RELIABILITY_LOGO from '../img/reliabilityseal3.gif';
-import PAYPAL_LOGO from '../img/paypal-bml.png';
-import BRAINTREE_LOGO from '../img/braintree-badge-dark.png';
+import PAYPAL_LOGO      from '../img/paypal-bml.png';
+import BRAINTREE_LOGO   from '../img/braintree-badge-dark.png';
 import CREDICTCARD_LOGO from '../img/creditcards-no-paypal.png';
 
 const Footer = () => {

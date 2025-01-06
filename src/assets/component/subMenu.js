@@ -1,4 +1,5 @@
 import React from "react";
+import { makeid } from "../utils";
 
 const SubMenu = () => {
   const menuData = [
@@ -430,8 +431,8 @@ const SubMenu = () => {
             <div className="container container-clamp no-vertical-gutter">
                 <div className="navbar-inner">
                     <ul>
-                    {menuData.map((item, index) => (
-                        <li>
+                    {menuData.map((item) => (
+                        <li key={makeid(4)}>
                             <h2 style={{marginTop:"0px"}}>
                                 <a 
                                     href="/"
